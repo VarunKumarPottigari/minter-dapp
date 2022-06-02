@@ -3,7 +3,7 @@ const chain = 'rinkeby'; // rinkeby or polygon
 
 const welcome_h1 = "Welcome to the LuxeCatz NFT Project!!";
 const welcome_h2 = "Connect to MetaMask to Get Started";
-const welcome_p = 'The CodeCats NFT Project is a decentralized, open-source project that aims to demonstrate how to develope and launch your own NFT Collection. Follow step by step on the <a href="https://youtube.com/codestackr"  target="_blank" rel="noopener noreferrer">codeSTACKr</a> YouTube channel.';
+const welcome_p = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rhoncus, felis vitae varius sagittis, nisl risus elementum ante, vel maximus augue nisi vitae velit. Curabitur ac justo quis nunc fringilla molestie in ac dui. Cras magna dui, euismod eu arcu non, efficitur efficitur ex. Phasellus iaculis massa sit amet tincidunt tempor. Sed efficitur urna nunc, sit amet dapibus nibh rutrum ac. Duis quis nulla urna. Integer a purus eget urna blandit accumsan. In non turpis euismod, scelerisque metus ut, egestas urna.';
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
 const h1_presale_mint = "Pre-Sale Minting Open!!";
 const h1_public_mint = "Public Minting Open!!";
