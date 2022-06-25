@@ -46,7 +46,7 @@ async function main() {
       body: formData,
     };
     const response = await fetchNoRetry(url, options);
-
+    console.log(response);
     fs.writeFileSync(
       `${writeDir}/_ipfsMetasResponse.json`,
       JSON.stringify(response, null, 2)

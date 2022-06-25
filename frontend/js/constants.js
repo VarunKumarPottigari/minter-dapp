@@ -1,9 +1,8 @@
-const contractAddress = "0x03B6A340Df314699e6D53256C1E154C7082b9151"; //Replace with your own contract address
+const contractAddress = "0x345274Cd55FE89A697ADA59aF6bFc98Ea80A8d41"; //Replace with your own contract address
 const chain = 'rinkeby'; // rinkeby or polygon
 
 const welcome_h1 = "Welcome to the LuxeCatz NFT Project!!";
-const welcome_h2 = "Connect to MetaMask to Get Started";
-const welcome_p = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rhoncus, felis vitae varius sagittis, nisl risus elementum ante, vel maximus augue nisi vitae velit. Curabitur ac justo quis nunc fringilla molestie in ac dui. Cras magna dui, euismod eu arcu non, efficitur efficitur ex. Phasellus iaculis massa sit amet tincidunt tempor. Sed efficitur urna nunc, sit amet dapibus nibh rutrum ac. Duis quis nulla urna. Integer a purus eget urna blandit accumsan. In non turpis euismod, scelerisque metus ut, egestas urna.';
+const welcome_p = 'Luxe Catz are 3333 cats that are hand drawn and computer generated. The combination of each cat is unique. Some have a tie, some have spots and some have rainbow coloured ears. Luxe catz is the first collection of the MillionNFTsClub collection to be made by TheLuckyRoon and team. Connect your wallet to own a luxe cat.';
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
 const h1_presale_mint = "Pre-Sale Minting Open!!";
 const h1_public_mint = "Public Minting Open!!";

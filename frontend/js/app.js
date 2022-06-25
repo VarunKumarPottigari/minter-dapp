@@ -2,13 +2,6 @@ let accounts;
 
 // METAMASK CONNECTION
 window.addEventListener("DOMContentLoaded", async () => {
-  const welcomeH1 = document.getElementById("welcomeH1");
-  const welcomeH2 = document.getElementById("welcomeH2");
-  const welcomeP = document.getElementById("welcomeP");
-
-  welcomeH1.innerText = welcome_h1;
-  welcomeH2.innerText = welcome_h2;
-  welcomeP.innerHTML = welcome_p;
 
   if (window.ethereum) {
     window.web3 = new Web3(window.ethereum);
@@ -55,7 +48,7 @@ const updateConnectStatus = async () => {
     onboardButton.disabled = true;
     onboarding.stopOnboarding();
     notConnected.classList.remove('show-not-connected');
-    notConnected.classList.add('hidden');
+    // notConnected.classList.add('hidden');
     // SHOW SPINNER
     spinner.classList.remove('hidden');
     window.contract = new web3.eth.Contract(abi, contractAddress);
