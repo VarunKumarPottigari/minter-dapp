@@ -67,7 +67,7 @@ const updateConnectStatus = async () => {
         .then(function (accts) {
           onboardButton.innerText = `✔ ...${accts[0].slice(-4)}`;
           notConnected.classList.remove('show-not-connected');
-          notConnected.classList.add('hidden');
+          // notConnected.classList.add('hidden');
           // SHOW SPINNER
           spinner.classList.remove('hidden');
           onboardButton.disabled = true;
@@ -206,6 +206,7 @@ async function loadInfo() {
   } else if (chain === 'polygon') {
     priceType = 'MATIC';
   }
+  console.log(info);
   const price = web3.utils.fromWei(info.deploymentConfig.mintPrice, 'ether');
   const pricePerMint = document.getElementById("pricePerMint");
   const maxPerMint = document.getElementById("maxPerMint");
