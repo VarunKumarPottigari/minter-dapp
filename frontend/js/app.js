@@ -206,6 +206,7 @@ async function loadInfo() {
   } else if (chain === 'polygon') {
     priceType = 'MATIC';
   }
+  console.log(window.info);
   console.log(info);
   const price = web3.utils.fromWei(info.deploymentConfig.mintPrice, 'ether');
   const pricePerMint = document.getElementById("pricePerMint");

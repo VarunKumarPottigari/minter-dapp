@@ -101,7 +101,9 @@ const deployContract = async () => {
       },
       body: JSON.stringify(contract),
     };
+    console.log(options);
     const response = await fetchNoRetry(url, options);
+    console.log(response);
     fs.writeFileSync(`${basePath}/build/contract/_deployContractResponse.json`, JSON.stringify(response, null, 2));
     if(response.response === "OK") {
       console.log(`Contract deployment started.`);
