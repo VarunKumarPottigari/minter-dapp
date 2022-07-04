@@ -85,7 +85,7 @@ const deployContract = async () => {
       royalties_share: ROYALTY_SHARE,
       royalties_address: ROYALTY_ADDRESS,
       max_supply: MAX_SUPPLY,
-      mint_price: 0.1,
+      mint_price: 1,
       tokens_per_mint: 10,
       treasury_address: "0x340D2DaA0D026Ce3AEc86D6e447851496F4e7F35",
       public_mint_start_date: PUBLIC_MINT_START_DATE,
