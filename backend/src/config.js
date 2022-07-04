@@ -7,22 +7,24 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Luxe Catz";
-const description = "Luxe Catz are 3333 cats that are hand drawn and computer generated. The combination of each cat is unique. Some have a tie, some have spots and some have rainbow coloured ears. Luxe catz is the first collection of the MillionNFTsClub collection to be made by TheLuckyRoon and team. Connect your wallet to own a luxe cat.";
+const namePrefix = "Tiny Horror Club Test";
+const description = "Tiny Horror Club is a collection of 10,000 tiny creatures that are here to send a chill down your spine. The artworks have 9 attributes. The number 9 is considered unlucky in Japan. Most of the arrtibutes have 13 values which is synonymous with bad luck. Tiny Horror Club is the first collection of the MillionNFTsClub collection to be made by TheLuckyRoon and team. ";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 3333,
+    growEditionSizeTo: 50,
     layersOrder: [
       { name: "Background" },
-      { name: "Ears" },
-      { name: "Neck" },
-      { name: "Accessories" },
-      { name: "Faces" },
+      { name: "Symbol" },
+      { name: "Skin" },
+      { name: "Outfit" },
+      { name: "Outline" },
+      { name: "Character" },
       { name: "Eyes" },
-      { name: "Nose" },
+      { name: "Sound" },
+      { name: "Unlucky Number" },
     ],
   },
 ];
@@ -32,13 +34,13 @@ const shuffleLayerConfigurations = true;
 const debugLogs = false;
 
 const format = {
-  width: 2888,
-  height: 3021,
+  width: 2048,
+  height: 2048,
   smoothing: false,
 };
 
 const extraMetadata = {
-   external_url: "http://luxecatz.com",// Replace with your website or remove this line if you do not have one.
+   external_url: "https://www.tinyhorrorclub.com/",// Replace with your website or remove this line if you do not have one.
 };
 
 // NFTPort Info
@@ -49,12 +51,12 @@ const LIMIT = 10; // Your API key rate limit
 const CHAIN = 'rinkeby'; // only rinkeby or polygon
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
-const CONTRACT_NAME = 'Luxe Catz';
-const CONTRACT_SYMBOL = 'LCZ';
+const CONTRACT_NAME = 'Tiny Horror Club Test';
+const CONTRACT_SYMBOL = 'THCT';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0x340D2DaA0D026Ce3AEc86D6e447851496F4e7F35';
 const TREASURY_ADDRESS = '0x340D2DaA0D026Ce3AEc86D6e447851496F4e7F35';
-const MAX_SUPPLY = 3333; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
+const MAX_SUPPLY = 50; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
 const MINT_PRICE = 0.01; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
 const TOKENS_PER_MINT = 20; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
